@@ -32,18 +32,17 @@ scale up and to scale out by requesting more resources when needed.
 
 ```mermaid
 graph LR
-
-CPU1 SPACE memory SPACE disk[Square Rect] --> CPU2 SPACE memory SPACE disk[Square Rect]
-CPU2 SPACE memory SPACE disk --> CPU3 SPACE memory SPACE disk[Square Rect]
-CPU3 SPACE memory SPACE disk --> CPU1 SPACE memory SPACE disk
+A[CPU1 memory disk] --> B[CPU2 memory disk]
+C[CPU3 memory disk] --> A
+A --> B
 ```
 
 ## Centralized
 
 ```mermaid
 graph LR
-processing, resources, computing[Square Rect] --> A((Circle))
-processing, resources, computing[Square Rect] --> B((Circle))
-processing, resources, computing[Square Rect] --> C((Circle))
+A[processing, resources, computing] --> D(())
+A --> B(())
+A --> C(())
 ```
 
