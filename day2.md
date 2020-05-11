@@ -28,10 +28,21 @@ scale up and to scale out by requesting more resources when needed.
 
 # Centralized vs Distributed
 
+## Distribted
+
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
+CPU1 memory disk[Square Rect] --> CPU2 memory disk[Square Rect]
+CPU2 memory disk[Square Rect] --> CPU3 memory disk[Square Rect]
+CPU3 memory disk[Square Rect] --> CPU1 memory disk[Square Rect]
 ```
+
+## Centralized
+
+```mermaid
+graph LR
+processing, resources, computing[Square Rect] --> A((Circle))
+processing, resources, computing[Square Rect] --> B((Circle))
+processing, resources, computing[Square Rect] --> C((Circle))
+```
+
