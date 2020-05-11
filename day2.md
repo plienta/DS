@@ -30,7 +30,8 @@ scale up and to scale out by requesting more resources when needed.
 
 ```mermaid
 graph LR
-A --> B;
-B --> C;
-C --> A;
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
 ```
