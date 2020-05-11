@@ -65,7 +65,7 @@ A --> C(( ))
 |Server	|When several clients request for the services simultaneously, a server can get bottlenecked.	|As the services are provided by several servers distributed in the peer-to-peer system, a server in not bottlenecked.|
 |Expense	|The client-server are expensive to implement.	|Peer-to-peer are less expensive to implement.|
 |Stability	|Client-Server is more stable and scalable.	|Peer-to Peer suffers if the number of peers increases in the system.|
-|Applications |<li>High security. <li>Resources consistency|<li>Communication services.<li>V2V| 
+|Applications |<li>High security. <li>Resources consistency. <i>Need centralization for information handle|<li>Communication services.<li>V2V| 
 
 
 ```mermaid
