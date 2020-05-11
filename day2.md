@@ -82,6 +82,7 @@ B --2mins--> A
 ## [Fog computing]
 The fog nodes closest to the network edge ingest the data from IoT devices. Then—and this is crucial—the fog IoT application directs different types of data to the optimal place for analysis.
 
-Hybrid
+[Hybrid]
 
 [Fog computing]: https://www.cisco.com/c/dam/en_us/solutions/trends/iot/docs/computing-overview.pdf
+[Hybrid]: http://csis.pace.edu/~marchese/CS865/Lectures/Chap2/Chapter2.htm
