@@ -34,15 +34,14 @@ scale up and to scale out by requesting more resources when needed.
 graph LR
 A[CPU1 memory disk] --> B[CPU2 memory disk]
 C[CPU3 memory disk] --> A
-A --> B
+B --> C
 ```
 
 ## Centralized
 
 ```mermaid
 graph LR
-A[processing, resources, computing] --> D(())
-A --> B(())
-A --> C(())
+A[processing, resources, computing] --> D(( ))
+A --> B(( ))
+A --> C(( ))
 ```
-
