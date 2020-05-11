@@ -45,6 +45,9 @@ A[processing, resources, computing] --> D(( ))
 A --> B(( ))
 A --> C(( ))
 ```
+
+# Client-Server vs Peer to peer
+
 ## Disadvantages & Anvantages
 
 |     |Cient-Server  |peer to peer |
