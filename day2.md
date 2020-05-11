@@ -50,9 +50,9 @@ A --> C(( ))
 |     |Cient-Server  |peer to peer |
 |----------------|-------------------------------|-----------------------------|
 |Pros 
-| * A client server can be scaled up to many services that can also be used by multiple users.
-* Security is more advanced than a peer-to-peer network, you can have passwords to own individual profiles so that nobody can access anything when they want.
-* All the data is stored onto the servers which generally have far greater security controls than most clients. server can control the access and resources better to guarantee that only those clients with the appropriate permissions may access and change data.
+|A client server can be scaled up to many services that can also be used by multiple users.
+Security is more advanced than a peer-to-peer network, you can have passwords to own individual profiles so that nobody can access anything when they want.
+All the data is stored onto the servers which generally have far greater security controls than most clients. server can control the access and resources better to guarantee that only those clients with the appropriate permissions may access and change data.
 | * Easy and simple to set up only requiring a hub or a switch to connect all computers together.
 * You can access any file on the computer as-long as it is set to a shared folder.
 * If one computer fails to work all the other computers connected to it still continue to work. |
