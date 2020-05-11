@@ -53,7 +53,7 @@ A --> C(( ))
 |Cons |<li>More expensive than a peer-to-peer network you have to pay for the start up cost. <li>When the server goes down or crashes all the computers connected to it become unavailable to use. <li>When you expend the server it starts to slow down due to the Bit rate per second. <li>When everyone tries to do the same thing it takes a little while for the server to do certain tasks.|<li>Security is not good other than setting passwords for files that you don't want people to access. <li>If the connections are not connected to the computers properly then there can be problems accessing certain files. <li>It does not run efficient if you have many computers, it is best to used two to eight computers.|
   
   
-|BASIS FOR COMAPAISON |CLIENT-SERVER |PEER-TO-PEER|
+|BASIS FOR COMPARISON |CLIENT-SERVER |PEER-TO-PEER|
 |----------------|-------------------------------|-----------------------------|
 |Basic	|There is a specific server and specific clients connected to the server.|Clients and server are not distinguished; each node act as client and server.|
 |Service	|The client request for service and server respond with the service.	|Each node can request for services and can also provide the services.|
