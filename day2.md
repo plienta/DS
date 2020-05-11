@@ -32,6 +32,7 @@ scale up and to scale out by requesting more resources when needed.
 
 ```mermaid
 graph LR
+
 CPU1 memory disk[Square Rect] --> CPU2 memory disk[Square Rect]
 CPU2 memory disk --> CPU3 memory disk[Square Rect]
 CPU3 memory disk --> CPU1 memory disk
