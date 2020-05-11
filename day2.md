@@ -79,7 +79,9 @@ graph LR
 A[Client] --> B[Server]
 B --2mins--> A
 ```
-## Fog computing[https://www.cisco.com/c/dam/en_us/solutions/trends/iot/docs/computing-overview.pdf]
+## [Fog computing]
 The fog nodes closest to the network edge ingest the data from IoT devices. Then—and this is crucial—the fog IoT application directs different types of data to the optimal place for analysis.
 
 Hybrid
+
+[Fog computing]: https://www.cisco.com/c/dam/en_us/solutions/trends/iot/docs/computing-overview.pdf
