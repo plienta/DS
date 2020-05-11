@@ -52,7 +52,7 @@ A --> C(( ))
 
 |     |Cient-Server  |peer to peer |
 |----------------|-------------------------------|-----------------------------|
-|Pros |<li> Can intensionaly scale up (extend the server). <li>Security is more advanced than a peer-to-peer network, you can have passwords to own individual profiles so that nobody can access anything when they want. <li>All the data is stored onto the servers which generally have far greater security controls than most clients. server can control the access and resources better to guarantee that only those clients with the appropriate permissions may access and change data. <li>Easy for maintainance (eg: backup) management.|<li>Easy and simple to set up only requiring a hub or a switch to connect all computers together. <li>You can access any file on the computer as-long as it is set to a shared folder. <li>If one computer fails to work all the other computers connected to it still continue to work.|
+|Pros |<li> Can intensionaly scale up (extend the server). <li>Security is more advanced than a peer-to-peer network, you can have passwords to own individual profiles so that nobody can access anything when they want. <li>All the data is stored onto the servers which generally have far greater security controls than most clients. server can control the access and resources better to guarantee that only those clients with the appropriate permissions may access and change data. <li>Easy for maintainance (eg: backup) management.<li> More popular (>70%), no only becuz it is moreeasy to manage, but also becuz of business|<li>Easy and simple to set up only requiring a hub or a switch to connect all computers together. <li>You can access any file on the computer as-long as it is set to a shared folder. <li>If one computer fails to work all the other computers connected to it still continue to work.|
 |Cons |<li>More expensive than a peer-to-peer network you have to pay for the start up cost. <li>When the server goes down or crashes all the computers connected to it become unavailable to use  (single point of failure). <li>When you expend the server it starts to slow down due to the Bit rate per second. <li>When everyone tries to do the same thing it takes a little while for the server to do certain tasks.<li>By itself is not scalable as peer to peer.|<li>Security is not good other than setting passwords for files that you don't want people to access. <li>If the connections are not connected to the computers properly then there can be problems accessing certain files. <li>It does not run efficient if you have many computers, it is best to used two to eight computers.|
   
   
@@ -65,3 +65,16 @@ A --> C(( ))
 |Server	|When several clients request for the services simultaneously, a server can get bottlenecked.	|As the services are provided by several servers distributed in the peer-to-peer system, a server in not bottlenecked.|
 |Expense	|The client-server are expensive to implement.	|Peer-to-peer are less expensive to implement.|
 |Stability	|Client-Server is more stable and scalable.	|Peer-toPeer suffers if the number of peers increases in the system.|
+
+
+```mermaid
+graph LR
+A[Client] --> B[Server]
+B --60ms--> A
+```
+Bottleneck
+```mermaid
+graph LR
+A[Client] --> B[Server]
+B --2mins--> A
+```
