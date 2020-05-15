@@ -35,3 +35,7 @@ A --> C[Server 2]
 ## Security model
 
 ## 
+
+Online processing vs Offline processing vs Batch processing
+* Batch process: receive multi request and process all at one time
+* Online: Transaction
