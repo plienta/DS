@@ -16,6 +16,6 @@ Model share some fundalmental attributes.
 Point of cell: things attached in client. When the server cannot supprt client yet, then the info will be stored in here
 
 ```mermaid
-graph lr
+graph LR
 A[Client 1, time 11:02:45] --> B[Client 2, time 11:02:04]
 ```
