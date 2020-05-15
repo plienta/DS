@@ -39,3 +39,9 @@ A --> C[Server 2]
 Online processing vs Offline processing vs Batch processing
 * Batch process: receive multi request and process all at one time
 * Online: Transaction
+
+## TCP vs UDP
+| TCP | UDP |
+|-----|-----|
+| <li>Email<li>HTT/HTTPS<li> | <li>DNS<li>VoIP<li>Music Streaming<li>DHCP|
+| <li>Integrity<li>Reliability | <li> odering|
