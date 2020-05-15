@@ -44,4 +44,6 @@ Online processing vs Offline processing vs Batch processing
 | TCP | UDP |
 |-----|-----|
 | <li>Email<li>HTT/HTTPS<li> | <li>DNS<li>VoIP<li>Music Streaming<li>DHCP|
-| <li>Integrity<li>Reliability | <li> odering|
+| <li>Integrity<li>Reliability | <li>Odering|
+| | <li>Application must not have too much latency.<li>Simple service DNS, DHCP)|
+|TCP does error checking and also makes error recovery|UDP performs error checking, but it discards erroneous packets|
