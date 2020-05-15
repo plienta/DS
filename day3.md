@@ -12,8 +12,8 @@ Point of cell: things attached in client. When the server cannot supprt client y
 #### Clock event
 ```mermaid
 graph LR
-A(Cloud) -- B[Client 2, time 11:02:04]
-A -- C[Client 1, time 11:02:45]
+A(Cloud) --> B[Client 2, time 11:02:04]
+A --> C[Client 1, time 11:02:45]
 ```
 
 ## Failure model
