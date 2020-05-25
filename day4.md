@@ -31,7 +31,6 @@ If a packet gets lost along the way, the sender is responsible to retransmit the
 |Model |request-response (protocol for client-server computing and not always optimized for mobile devices) |publish/subscribe (perfect for resource-constrained devices and help to save battery)|
 |Package size |lengthy headers and messages (helps to eliminate troubles because it can be read by humans, but at the same time it’s needless for resource-constrained devices) |a very short message header and the smallest packet message size of 2 bytes |
 |speed | |throughput of MQTT is 93 times faster than HTTP’s|
-|cost| | |
+|cost|high |less |
 
 [1]: https://medium.com/mqtt-buddy/mqtt-vs-http-which-one-is-the-best-for-iot-c868169b3105
-|cost | | |
