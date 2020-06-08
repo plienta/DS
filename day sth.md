@@ -23,18 +23,18 @@ graph TD;
 3. Develop C
 4. keep both A and B
 5. The mix of 2 and 4
-    <li> Must merge the data
-    <li> Cannot merge some
+<li> Must merge the data
+<li> Cannot merge some
     
 ## Webservices application
 
 ### Chalenges:
-    (+) 
-    <li> Transparnecy
-    <li> Heterogenerity
-    <li> Security
-    <li> Openess
-    <li> Quality
-    (-)
-    <li> Scalability
+(+) 
+<li> Transparnecy
+<li> Heterogenerity
+<li> Security
+<li> Openess
+<li> Quality
+(-)
+<li> Scalability
     
