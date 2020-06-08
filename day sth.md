@@ -121,3 +121,36 @@ Here are pros/benefits of using API:
 <li>Web service supports only HTTP protocol whereas API supports HTTP/HTTPS protocol.
 <li>Web service supports XML while API supports XML and JSON.
 <li>All Web services are APIs but all APIs are not web services.
+    
+# SOAP vs REST
+SOAP (Simple Object Access Protocol) and REST (Representational State Transfer) are both web service communication protocols. 
+SOAP was long the standard approach to web service interfaces, although it’s been dominated by REST in recent years, with REST now representing more than 70% of public APIs according to Stormpath.  
+
+## SOAP vs REST
+| SOAP | REST |
+|--|--|
+|SOAP, on the other hand, exposes components of application logic as services rather than data. Additionally, it operates through different interfaces.|REST operates through a solitary, consistent interface to access named resources. It’s most commonly used when you’re exposing a public API over the Internet.|
+|SOAP performs operations through a more standardized set of messaging patterns.|REST accesses data|
+|SOAP was originally created by Microsoft, and it’s been around a lot longer than REST. This gives it the advantage of being an established, legacy protocol. |But REST has been around for a good time now as well. Plus, it entered the scene as a way to access web services in a much simpler way than possible with SOAP by using HTTP.|
+|It offers some additional assurances for data privacy and integrity, provides support for identity verification through intermediaries rather than just point-to-point, as provided by SSL (which is supported by both SOAP and REST).|
+|SOAP offers built-in retry logic to compensate for failed communications.| REST, on the other hand, doesn’t have a built-in messaging system. If a communication fails, the client has to deal with it by retrying. There’s also no standard set of rules for REST. This means that both parties (the service and the consumer) need to understand both content and context.|
+|SOAP only allows XML.|REST allows a greater variety of data formats|
+||Coupled with JSON (which typically works better with data and offers faster parsing), REST is generally considered easier to work with. Thanks to JSON, REST offers better support for browser clients.|
+| |REST provides superior performance, particularly through caching for information that’s not altered and not dynamic.|
+| |It is the protocol used most often for major services such as Yahoo, Ebay, Amazon, and even Google.|
+| |REST is generally faster and uses less bandwidth.|
+|SOAP’s standard HTTP protocol makes it easier for it to operate across firewalls and proxies without modifications to the SOAP protocol itself. But, because it uses the complex XML format, it tends to be slower compared to middleware such as ICE and COBRA.| |
+|Additionally, while it’s rarely needed, some use cases require greater transactional reliability than what can be achieved with HTTP (which limits REST in this capacity). If you need ACID-compliant transactions, SOAP is the way to go.| |
+|In some cases, designing SOAP services can actually be less complex compared to REST. For web services that support complex operations, requiring content and context to be maintained, designing a SOAP service requires less coding in the application layer for transactions, security, trust, and other elements.| It’s also easier to integrate with existing websites with no need to refactor site infrastructure. This enables developers to work faster rather than spend time rewriting a site from scratch. Instead, they can simply add additional functionality.|
+|SOAP is highly extensible through other protocols and technologies. In addition to WS-Security, SOAP supports WS-Addressing, WS-Coordination, WS-ReliableMessaging, and a host of other web services standards, a full list of which you can find on W3C.| |
+
+
+Still, in most cases, either REST or SOAP could be used to achieve the same outcome (and both are infinitely scalable), with some differences in how you’d configure it.
+
+
+Still, SOAP remains the preferred protocol for certain use cases. The general consensus among experts these days is that REST is the typically preferred protocol unless there’s a compelling reason to use SOAP (and there are some cases in which SOAP is preferred).
+
+
+
+Other benefits of SOAP include:
+
