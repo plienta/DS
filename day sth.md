@@ -35,6 +35,7 @@ graph TD;
 <li> Security
 <li> Openess
 <li> Quality
+    
 (-)
 <li> Scalability
     
