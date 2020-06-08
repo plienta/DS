@@ -127,18 +127,33 @@ SOAP (Simple Object Access Protocol) and REST (Representational State Transfer) 
 SOAP was long the standard approach to web service interfaces, although it’s been dominated by REST in recent years, with REST now representing more than 70% of public APIs according to Stormpath.  
 
 ## SOAP vs REST
+
+SoapModel:
+``` mermaid
+graph TD;
+    A-->B;
+    B-->A;
+    A-->C;
+    C-->A;
+    B-->C;
+    C-->B;
+    E[UDDI]-->A;
+    A-->E;
+    E-->B;
+    B-->E;
+    C-->E;
+    E-->C;
+```
+
+RestModel:
+``` mermaid
+graph TD;
+    A[Client]--Request-->B[Server];
+    B--Response-->A;
+```
 | | SOAP | REST |
 |--|--|--|
-| |SOAP, on the other hand, exposes components of application logic as services rather than data. Additionally, it operates through different interfaces.|REST operates through a solitary, consistent interface to access named resources. It’s most commonly used when you’re exposing a public API over the Internet.|
-| |SOAP performs operations through a more standardized set of messaging patterns.|REST accesses data|
-| |SOAP was originally created by Microsoft, and it’s been around a lot longer than REST. This gives it the advantage of being an established, legacy protocol. |But REST has been around for a good time now as well. Plus, it entered the scene as a way to access web services in a much simpler way than possible with SOAP by using HTTP.|
-|Privacy |It offers some additional assurances for data privacy and integrity, provides support for identity verification through intermediaries rather than just point-to-point, as provided by SSL (which is supported by both SOAP and REST).| |
-|Error handling |SOAP offers built-in retry logic to compensate for failed communications.| REST, on the other hand, doesn’t have a built-in messaging system. If a communication fails, the client has to deal with it by retrying. There’s also no standard set of rules for REST. This means that both parties (the service and the consumer) need to understand both content and context.|
-|Data format|SOAP only allows XML.|REST allows a greater variety of data formats|
-| | |REST provides superior performance, particularly through caching for information that’s not altered and not dynamic.|
-|Bandwidth | |REST is generally faster and uses less bandwidth.|
-| |SOAP’s standard HTTP protocol makes it easier for it to operate across firewalls and proxies without modifications to the SOAP protocol itself. But, because it uses the complex XML format, it tends to be slower compared to middleware such as ICE and COBRA.| |
-| |In some cases, designing SOAP services can actually be less complex compared to REST. For web services that support complex operations, requiring content and context to be maintained, designing a SOAP service requires less coding in the application layer for transactions, security, trust, and other elements.| It’s also easier to integrate with existing websites with no need to refactor site infrastructure. This enables developers to work faster rather than spend time rewriting a site from scratch. Instead, they can simply add additional functionality.|
-| |SOAP is highly extensible through other protocols and technologies. In addition to WS-Security, SOAP supports WS-Addressing, WS-Coordination, WS-ReliableMessaging, and a host of other web services standards, a full list of which you can find on W3C.| |
-|Use Case|<li>Use cases require greater transactional reliability than what can be achieved with HTTP (which limits REST in this capacity) such as ACID-compliant transactions, SOAP is the way to go.</li>|<li>It is the protocol used most often for major services such as Yahoo, Ebay, Amazon, and even Google.</li> <li> support for browser clients (JSON (which typically works better with data and offers faster parsing))</li> |
+|Data format|SOAP only allows XML.|REST allows a greater variety of data formats: plain text, HTML, XML, and JSON,|
+|Protocol|HTTP, SMTP,TCP, UDP |HTTP|
+|Use Case|<li>Use cases require greater transactional reliability, integrity than what can be achieved with HTTP (which limits REST in this capacity) such as ACID-compliant transactions</li>|<li>It is the protocol used most often for major services such as Yahoo, Ebay, Amazon, and even Google.</li> <li> support for browser clients (JSON (which typically works better with data and offers faster parsing))</li>|
 
