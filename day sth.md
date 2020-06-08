@@ -14,3 +14,15 @@ graph TD;
     B-->C;
     C-->B;
 ```
+
+## Interface
+
+### Intergrate 2 bank
+1. Get A/B remove the other
+2. Intergrate C = A + B
+3. Develop C
+4. keep both A and B
+5. The mix of 2 and 4
+<i> Must merge the data
+<i> Cannot merge some
+    
