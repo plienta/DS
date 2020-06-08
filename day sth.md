@@ -10,7 +10,9 @@
 ``` mermaid
 graph TD;
     A(NEC)-->B(Delivery);
+    B-->A;
     A-->C(Toreta);
+    C-->A;
     B-->C;
     C-->B;
 ```
