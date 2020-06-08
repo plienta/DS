@@ -155,5 +155,5 @@ graph TD;
 |--|--|--|
 |Data format|SOAP only allows XML.|REST allows a greater variety of data formats: plain text, HTML, XML, and JSON,|
 |Protocol|HTTP, SMTP,TCP, UDP |HTTP|
-|Use Case|<li>Use cases require greater transactional reliability, integrity than what can be achieved with HTTP (which limits REST in this capacity) such as ACID-compliant transactions</li>|<li>It is the protocol used most often for major services such as Yahoo, Ebay, Amazon, and even Google.</li> <li> support for browser clients (JSON (which typically works better with data and offers faster parsing))</li>|
+|Use Case|<li>Use cases require greater transactional reliability, integrity than what can be achieved with HTTP (which limits REST in this capacity) such as ACID-compliant transactions</li> <li> Complicated Service</li>|<li>It is the protocol used most often for major services such as Yahoo, Ebay, Amazon, and even Google.</li> <li> support for browser clients (JSON (which typically works better with data and offers faster parsing))</li><li> Lighted weught</li>|
 
