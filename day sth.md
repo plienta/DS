@@ -23,6 +23,6 @@ graph TD;
 3. Develop C
 4. keep both A and B
 5. The mix of 2 and 4
-<i> Must merge the data
-<i> Cannot merge some
+<li> Must merge the data
+<li> Cannot merge some
     
